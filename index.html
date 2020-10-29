@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Confess</title>
+    <script defer src="http://localhost:3000/socket.io/socket.io.js"></script>
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-size: large;
+        }
+        body{
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+        #message-container{
+            width: 80%;
+            max-width: 600px;
+        }
+        #message-container div{
+            background-color: #ccc;
+            padding: 5px;
+            width: 1000px;
+        }
+        #message-container div:nth-child(2n){
+            background-color: rgba(255, 255, 255, 0.315);
+        }
+        #send-container
+            input[type=text] {
+                background-color: white;
+                background-image: url(chat.jpg);
+                background-position: 20px 20px;
+                background-repeat: no-repeat;
+                padding-left: 40px;
+                width: 700px;
+                height: 50px;
+                margin-top: 30px;
+                font-size: medium; 
+
+        }
+        #send-container{
+            padding-top: 400px;
+            position: sticky;
+        }
+        #send-button{
+            background-color: #555555; /* Gray */
+            border: none;
+            color: white;
+            padding: 17px 112px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+        }
+        #send-button:hover{
+            background-color: black;
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <div class="chat-container">
+    <div id="message-container"></div>  
+    <form id="send-container">
+        <input type="text" placeholder="YOUR MESSAGE" id="message-text" required="true">
+        <button type="submit" id="send-button">Send</button>
+    </form>
+    </div>
+</body>
+</html>
