@@ -7,7 +7,7 @@ Simple Add the file to your pc or mac.(copy)
 #####################################################
 then launch the code in any code editor.(VS Code)
 
-Open terminal Navigate to the project and then Run a comand
+Open terminal Navigate to the project and then Run a command
 
 ####################################################
 
