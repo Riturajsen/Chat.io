@@ -13,11 +13,11 @@ Create a file and navigate it in terminal and run
         npm install --save-dev nodemon
 
 #####################################################
-*******************************************************************************************************
-								      *
-COPY THE FILE							      *
-								      *
-Simple Add the file to your pc or mac.(copy)					      *
+*********************************************************
+								      
+COPY THE FILE							      
+								      
+Simple Add the file to your pc or mac.(copy)					      
 
 #####################################################
 then launch the code in any code editor.(VS Code)
