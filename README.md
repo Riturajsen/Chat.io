@@ -1,8 +1,23 @@
 # Chat_Io
 A simple chat app
 
+BEFORE COPYING
+#####################################################
 
-Simple Add the file to your pc or mac.(copy)
+Create a file and navigate it in terminal and run
+
+        $npm init
+        
+        $npm install socket.io
+        
+        npm install --save-dev nodemon
+
+#####################################################
+*******************************************************************************************************
+								      *
+COPY THE FILE							      *
+								      *
+Simple Add the file to your pc or mac.(copy)					      *
 
 #####################################################
 then launch the code in any code editor.(VS Code)
