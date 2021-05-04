@@ -1,4 +1,4 @@
-# Chat_Io
+# Chat_io
 A simple chat app
 
 BEFORE COPYING
